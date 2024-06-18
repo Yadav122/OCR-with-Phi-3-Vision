@@ -1,0 +1,24 @@
+
+### Creating the Repository on GitHub
+1. Go to GitHub and sign in to your account.
+2. Click on the `+` button in the upper-right corner and select `New repository`.
+3. Enter `OCR-with-Phi-3-Vision` as the repository name.
+4. Add the description: "This repository contains code to perform Optical Character Recognition (OCR) on images using the Phi-3 Vision model from Microsoft. The OCR output is provided in markdown format."
+5. Choose the visibility (Public or Private).
+6. Click on `Create repository`.
+
+### Adding the README file
+1. In the newly created repository, click on `Add file` and select `Create new file`.
+2. Name the file `README.md`.
+3. Copy the content of the README file provided above into the editor.
+4. Commit the new file by clicking on `Commit new file`.
+
+### Uploading the Code
+1. Clone the repository to your local machine.
+2. Copy your code files into the cloned repository directory.
+3. Use the following commands to push your code to GitHub:
+
+```bash
+git add .
+git commit -m "Initial commit with OCR code"
+git push origin main
